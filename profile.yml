@@ -48,6 +48,20 @@ compounza:
     - "📚 Analyst to Architect - three volumes, 68 chapters, 2,997 pages, from what data is to data architecture"
     - "🧩 16 portfolio projects - Excel, Python, machine learning and computer vision"
 
+# ---------------------------------------------------------------- portfolio
+# The "Projects" section near the top. Case studies live in portfolio/.
+# covers: which project images to show in the strip (folder names in
+# portfolio/projects/). Set show: false to hide the section.
+portfolio:
+  show: true
+  link: portfolio/README.md
+  highlight:
+    name: Manufacturing Costing Engine
+    link: portfolio/projects/costing-engine/README.md
+    text: Built at work. A web app that replaced the company's costing spreadsheet - costs derived from raw-material prices and recipes, recalculated automatically, with impact analysis, versioning, six user roles and a full audit trail. Python, FastAPI, SQLAlchemy, 62 automated tests.
+  count_text: 16 data projects across Excel, Python, machine learning and computer vision
+  covers: [p0-branch-sales-dashboard, k1-monday-sales-briefing, m1-mortgage-approval-model, v4-hand-and-head-gesture-control, p05-monthly-sales-report-automation, k2-dataset-fitness-check, m5-b2b-account-health-and-order-risk, v2-bystander-face-redaction]
+
 # ---------------------------------------------------------------- skills
 # Each group becomes a row. Badges come from shields.io; a name it doesn't
 # know just shows as a plain grey badge.

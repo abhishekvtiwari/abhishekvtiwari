@@ -25,6 +25,18 @@
 
 ---
 
+## 📂 Projects
+
+> ⭐ **[Manufacturing Costing Engine](portfolio/projects/costing-engine/README.md)**  
+> Built at work. A web app that replaced the company's costing spreadsheet - costs derived from raw-material prices and recipes, recalculated automatically, with impact analysis, versioning, six user roles and a full audit trail. Python, FastAPI, SQLAlchemy, 62 automated tests.
+
+<table>
+<tr><td width="25%"><a href="portfolio/projects/p0-branch-sales-dashboard/README.md"><img src="portfolio/images/p0-branch-sales-dashboard.jpg" alt="p0-branch-sales-dashboard"></a></td><td width="25%"><a href="portfolio/projects/k1-monday-sales-briefing/README.md"><img src="portfolio/images/k1-monday-sales-briefing.jpg" alt="k1-monday-sales-briefing"></a></td><td width="25%"><a href="portfolio/projects/m1-mortgage-approval-model/README.md"><img src="portfolio/images/m1-mortgage-approval-model.jpg" alt="m1-mortgage-approval-model"></a></td><td width="25%"><a href="portfolio/projects/v4-hand-and-head-gesture-control/README.md"><img src="portfolio/images/v4-hand-and-head-gesture-control.jpg" alt="v4-hand-and-head-gesture-control"></a></td></tr>
+<tr><td width="25%"><a href="portfolio/projects/p05-monthly-sales-report-automation/README.md"><img src="portfolio/images/p05-monthly-sales-report-automation.jpg" alt="p05-monthly-sales-report-automation"></a></td><td width="25%"><a href="portfolio/projects/k2-dataset-fitness-check/README.md"><img src="portfolio/images/k2-dataset-fitness-check.jpg" alt="k2-dataset-fitness-check"></a></td><td width="25%"><a href="portfolio/projects/m5-b2b-account-health-and-order-risk/README.md"><img src="portfolio/images/m5-b2b-account-health-and-order-risk.jpg" alt="m5-b2b-account-health-and-order-risk"></a></td><td width="25%"><a href="portfolio/projects/v2-bystander-face-redaction/README.md"><img src="portfolio/images/v2-bystander-face-redaction.jpg" alt="v2-bystander-face-redaction"></a></td></tr>
+</table>
+
+**16 data projects across Excel, Python, machine learning and computer vision** → **[See all projects](portfolio/README.md)**
+
 ## 🙋 About me
 
 - Business Analyst in the PMO (CEO's Office) at JJ Plastalloy.
@@ -52,7 +64,7 @@ I took course after course and still didn't find what I was actually looking for
 <tr><td><b>Also</b></td><td><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=black" alt="scikit-learn"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></td></tr>
 </table>
 
-## 📌 Featured projects
+## 📌 More projects
 
 | Project | What it is | Built with |
 |---|---|---|

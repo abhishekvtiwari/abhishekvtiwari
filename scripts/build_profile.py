@@ -277,7 +277,21 @@ def readme(p, have_stats):
     else:
         L.append('<p align="center"><img src="assets/whoami.svg" alt="whoami card" width="60%"></p>\n')
 
-    L.append('---\n\n## 🙋 About me\n')
+    pf = p.get("portfolio") or {}
+    if pf.get("show"):
+        L.append("---\n\n## 📂 Projects\n")
+        h = pf.get("highlight") or {}
+        if h:
+            L.append(f'> ⭐ **[{h["name"]}]({h["link"]})**  \n> {h["text"]}\n')
+        covers = pf.get("covers") or []
+        if covers:
+            L.append("<table>")
+            for i in range(0, len(covers), 4):
+                cells = "".join(f'<td width="25%"><a href="portfolio/projects/{c}/README.md"><img src="portfolio/images/{c}.jpg" alt="{c}"></a></td>' for c in covers[i:i + 4])
+                L.append(f"<tr>{cells}</tr>")
+            L.append("</table>\n")
+        L.append(f'**{pf.get("count_text", "")}** → **[See all projects]({pf.get("link", "portfolio/README.md")})**\n')
+    L.append('## 🙋 About me\n')
     L += [f"- {a}" for a in p.get("about") or []]
     L.append("")
 
@@ -307,7 +321,7 @@ def readme(p, have_stats):
         L.append("")
 
     if p.get("projects"):
-        L.append('## 📌 Featured projects\n')
+        L.append('## 📌 More projects\n')
         L.append('| Project | What it is | Built with |\n|---|---|---|')
         for pr in p["projects"]:
             L.append(f'| [**{pr["name"]}**](https://github.com/{USER}/{pr["repo"]}) | {pr["what"]} | {pr.get("stack", "")} |')
