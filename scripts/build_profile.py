@@ -324,7 +324,6 @@ def readme(p, have_stats):
     if p.get("website"):
         bits.append(f'🌐 [{p["website"].split("//")[-1]}]({p["website"]})')
     L.append(" · ".join(bits) + "\n")
-    L.append('<p align="center"><sub>Cards refresh every morning from the public contribution calendar · this page is built from <a href="profile.yml">profile.yml</a> · <a href="GUIDE.md">how to edit it</a></sub></p>')
     return "\n".join(L) + "\n"
 
 

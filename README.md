@@ -68,4 +68,3 @@ I took course after course and still didn't find what I was actually looking for
 
 📫 **abhishekvtiwari008@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/abhishekvtiwari/) · 📄 [Résumé](https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing) · 🌐 [compounza.in](https://compounza.in)
 
-<p align="center"><sub>Cards refresh every morning from the public contribution calendar · this page is built from <a href="profile.yml">profile.yml</a> · <a href="GUIDE.md">how to edit it</a></sub></p>
