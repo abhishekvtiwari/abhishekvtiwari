@@ -79,7 +79,7 @@ featured:
     - [portfolio/projects/costing-engine/images/impact.jpg, "What-if: a price change and every product it touches"]
     - [portfolio/projects/costing-engine/images/sheet.jpg, "The familiar costing sheet, now live"]
     - [portfolio/projects/costing-engine/images/activity.jpg, "Audit trail: who changed what, and why"]
-  stack: Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline
+  stack: Python · FastAPI · SQLAlchemy · PostgreSQL · openpyxl · pytest
   note: Screenshots use made-up demo data. The company's products, customers and prices are not shown.
 
 # ---------------------------------------------------------------- shop

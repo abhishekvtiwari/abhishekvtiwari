@@ -35,7 +35,7 @@ What I do best: take a process that runs on a fragile spreadsheet and turn it in
 <tr><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/sheet.jpg" alt="The familiar costing sheet, now live"></a><br><sub>The familiar costing sheet, now live</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/activity.jpg" alt="Audit trail: who changed what, and why"></a><br><sub>Audit trail: who changed what, and why</sub></td></tr>
 </table>
 
-`Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline`
+`Python · FastAPI · SQLAlchemy · PostgreSQL · openpyxl · pytest`
 
 **[Read the full case study →](https://github.com/abhishekvtiwari/manufacturing-costing-engine)**
 
