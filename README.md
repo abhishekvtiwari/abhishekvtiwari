@@ -1,6 +1,8 @@
-<h1 align="center">Hi, I'm Abhishek Tiwari 👋</h1>
+<p align="center">
+  <a href="https://compounza.in"><img src="assets/banner.svg" alt="Abhishek Tiwari, Data Analyst and Founder of Compounza: I turn data into decisions, and teach others how." width="100%"></a>
+</p>
 
-<h3 align="center">Data Analyst · Founder of <a href="https://compounza.in">Compounza</a></h3>
+<h3 align="center">Hi, I'm Abhishek 👋 · Data Analyst · Founder of <a href="https://compounza.in">Compounza</a></h3>
 
 <p align="center">
   I turn data into decisions, and I write the books and build the projects that teach people how to do it.
@@ -16,6 +18,8 @@
 ---
 
 ## 🚀 What I'm building: Compounza
+
+<img src="assets/compounza-mark.png" alt="Compounza" width="64" align="right">
 
 **[compounza.in](https://compounza.in)** publishes books and portfolio projects for people building a career with data.
 
