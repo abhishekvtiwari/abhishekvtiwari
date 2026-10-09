@@ -4,7 +4,9 @@
 
 **Built at work** · Python · FastAPI · SQLAlchemy · SQLite · 62 automated tests · runs fully offline on the office network
 
-<sub>This is a case study. The working system, its data, product names and prices belong to the company and are not shared here.</sub>
+<sub>This is a case study. The working system, its data, product names and prices belong to the company and are not shared here. The screenshots below run the same application on made-up demo data.</sub>
+
+<p align="center"><img src="images/home.jpg" alt="Search and overview" width="100%"><br><sub>Search &amp; overview: what a product costs today, and what moved</sub></p>
 
 ---
 
@@ -36,6 +38,13 @@ Raw-material cost   = Σ (quantity % × raw-material price)
 | **Bulk upload** | Templates for prices, materials, suppliers, recipes, freight and margins. The whole file is checked first and saved **all or nothing**; near-misses get a suggested fix |
 | **Activity log** | Who, what, when, old value, new value and the reason, for every change |
 | **Roles** | Admin, costing manager, purchase, management, sales and viewer, each seeing only the actions they're allowed |
+
+## Screens
+
+<table>
+<tr><td width="50%" align="center" valign="top"><img src="images/grade.jpg" alt="Product cost build-up"><br><sub>One product's full cost build-up: raw materials, freight, processing, margin</sub></td><td width="50%" align="center" valign="top"><img src="images/impact.jpg" alt="Impact analysis"><br><sub>What-if: a 12% price rise and every product it touches, before saving</sub></td></tr>
+<tr><td width="50%" align="center" valign="top"><img src="images/sheet.jpg" alt="Costing sheet"><br><sub>The familiar costing-sheet layout, now live</sub></td><td width="50%" align="center" valign="top"><img src="images/activity.jpg" alt="Activity log"><br><sub>Audit trail: who, when, old value, new value and the reason</sub></td></tr>
+</table>
 
 ## How it's built
 

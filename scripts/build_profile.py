@@ -269,6 +269,35 @@ def readme(p, have_stats):
         buttons.append(f'<a href="{p["website"]}"><img src="https://img.shields.io/badge/Compounza-{urllib.parse.quote(p["website"].split("//")[-1])}-167a45?style=for-the-badge" alt="Website"></a>')
     L.append('<p align="center">\n  ' + "\n  ".join(buttons) + '\n</p>\n')
 
+    ft = p.get("featured") or {}
+    if ft.get("show"):
+        e = lambda s: html.escape(str(s), quote=False)
+        L.append(f'---\n\n## ⭐ Featured: {e(ft["name"])}\n')
+        L.append(f'<sub><b>{e(ft.get("label", ""))}</b></sub>\n')
+        L.append(f'{e(ft.get("pitch", ""))}\n')
+        ba = ft.get("before_after") or []
+        if ba:
+            L.append("| Before | After |\n|---|---|")
+            L += [f"| {e(b)} | **{e(a)}** |" for b, a in ba]
+            L.append("")
+        imgs = ft.get("images") or []
+        if imgs:
+            src, cap = imgs[0]
+            L.append(f'<p align="center"><a href="{ft["link"]}"><img src="{src}" alt="{html.escape(cap)}" width="100%"></a><br><sub>{e(cap)}</sub></p>\n')
+            rest = imgs[1:]
+            if rest:
+                L.append("<table>")
+                for i in range(0, len(rest), 2):
+                    cells = "".join(f'<td width="50%" align="center" valign="top"><a href="{ft["link"]}"><img src="{s}" alt="{html.escape(c)}"></a><br><sub>{e(c)}</sub></td>' for s, c in rest[i:i + 2])
+                    L.append(f"<tr>{cells}</tr>")
+                L.append("</table>\n")
+        if ft.get("stack"):
+            L.append(f'`{ft["stack"]}`\n')
+        L.append(f'**[Read the full case study →]({ft["link"]})**\n')
+        if ft.get("note"):
+            L.append(f'<sub>{e(ft["note"])}</sub>\n')
+        L.append("---\n")
+
     L.append(f'<h3 align="center"><code>{USER}@github ~ $ whoami</code></h3>\n')
     if have_stats:
         L.append('<p align="center">\n  <img src="assets/whoami.svg" alt="whoami card" width="49%">\n  <img src="assets/stats.svg" alt="Contribution stats" width="49%">\n</p>\n')
@@ -280,9 +309,6 @@ def readme(p, have_stats):
     pf = p.get("portfolio") or {}
     if pf.get("show"):
         L.append("---\n\n## 📂 Projects\n")
-        h = pf.get("highlight") or {}
-        if h:
-            L.append(f'> ⭐ **[{h["name"]}]({h["link"]})**  \n> {h["text"]}\n')
         covers = pf.get("covers") or []
         if covers:
             L.append("<table>")

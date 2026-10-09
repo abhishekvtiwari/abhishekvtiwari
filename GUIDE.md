@@ -31,6 +31,7 @@ certificates/ ──►  links in "Achievements and certificates"
 | Update email, LinkedIn or website | `email:` · `linkedin:` · `website:` | `email: you@example.com` |
 | Add or remove a skill | the lists under `skills:` | `Data: [SQL, Python, Power BI, Tableau]` |
 | Add a new skill group | a new line under `skills:` | `Tools: [Jira, Confluence]` |
+| Change the featured project at the top | `featured:` (name, pitch, the Before/After rows, images) | `show: false` hides it |
 | Show or hide Compounza | `compounza:` → `show:` | `show: false` hides it |
 | Add, remove or reorder featured projects | the entries under `projects:` | see below |
 | Add HackerRank stars or a certificate | `achievements:` | see below |

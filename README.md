@@ -12,6 +12,37 @@
   <a href="https://compounza.in"><img src="https://img.shields.io/badge/Compounza-compounza.in-167a45?style=for-the-badge" alt="Website"></a>
 </p>
 
+---
+
+## ⭐ Featured: Manufacturing Costing Engine
+
+<sub><b>Built at work · a working system</b></sub>
+
+What I do best: take a process that runs on a fragile spreadsheet and turn it into a system people can trust. This is the clearest example.
+
+| Before | After |
+|---|---|
+| Product costs partly typed in by hand in one large Excel sheet | **Every cost derived from raw-material prices and recipes, never typed** |
+| A price change meant hunting through every product that used it | **Change one price and every affected product recalculates at once** |
+| "What if this price goes up?" meant copying the sheet and editing it by hand | **Impact analysis shows every affected product, old cost against new, before anything is saved** |
+| Nobody could say who changed a number, when, or why | **Every change logged with who, when, old value, new value and the reason** |
+| No checks: a recipe could total 99.5% or a bad paste could slip in unnoticed | **Recipes must total 100%, uploads are checked all-or-nothing, six user roles, 62 automated tests** |
+
+<p align="center"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/home.jpg" alt="Search &amp; overview: what a product costs today, and what moved" width="100%"></a><br><sub>Search &amp; overview: what a product costs today, and what moved</sub></p>
+
+<table>
+<tr><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/grade.jpg" alt="One product&#x27;s full cost build-up"></a><br><sub>One product's full cost build-up</sub></td><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/impact.jpg" alt="What-if: a price change and every product it touches"></a><br><sub>What-if: a price change and every product it touches</sub></td></tr>
+<tr><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/sheet.jpg" alt="The familiar costing sheet, now live"></a><br><sub>The familiar costing sheet, now live</sub></td><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/activity.jpg" alt="Audit trail: who changed what, and why"></a><br><sub>Audit trail: who changed what, and why</sub></td></tr>
+</table>
+
+`Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline`
+
+**[Read the full case study →](portfolio/projects/costing-engine/README.md)**
+
+<sub>Screenshots use made-up demo data. The company's products, customers and prices are not shown.</sub>
+
+---
+
 <h3 align="center"><code>abhishekvtiwari@github ~ $ whoami</code></h3>
 
 <p align="center">
@@ -26,9 +57,6 @@
 ---
 
 ## 📂 Projects
-
-> ⭐ **[Manufacturing Costing Engine](portfolio/projects/costing-engine/README.md)**  
-> Built at work. A web app that replaced the company's costing spreadsheet - costs derived from raw-material prices and recipes, recalculated automatically, with impact analysis, versioning, six user roles and a full audit trail. Python, FastAPI, SQLAlchemy, 62 automated tests.
 
 <table>
 <tr><td width="25%"><a href="portfolio/projects/p0-branch-sales-dashboard/README.md"><img src="portfolio/images/p0-branch-sales-dashboard.jpg" alt="p0-branch-sales-dashboard"></a></td><td width="25%"><a href="portfolio/projects/k1-monday-sales-briefing/README.md"><img src="portfolio/images/k1-monday-sales-briefing.jpg" alt="k1-monday-sales-briefing"></a></td><td width="25%"><a href="portfolio/projects/m1-mortgage-approval-model/README.md"><img src="portfolio/images/m1-mortgage-approval-model.jpg" alt="m1-mortgage-approval-model"></a></td><td width="25%"><a href="portfolio/projects/v4-hand-and-head-gesture-control/README.md"><img src="portfolio/images/v4-hand-and-head-gesture-control.jpg" alt="v4-hand-and-head-gesture-control"></a></td></tr>

@@ -55,12 +55,32 @@ compounza:
 portfolio:
   show: true
   link: portfolio/README.md
-  highlight:
-    name: Manufacturing Costing Engine
-    link: portfolio/projects/costing-engine/README.md
-    text: Built at work. A web app that replaced the company's costing spreadsheet - costs derived from raw-material prices and recipes, recalculated automatically, with impact analysis, versioning, six user roles and a full audit trail. Python, FastAPI, SQLAlchemy, 62 automated tests.
   count_text: 16 data projects across Excel, Python, machine learning and computer vision
   covers: [p0-branch-sales-dashboard, k1-monday-sales-briefing, m1-mortgage-approval-model, v4-hand-and-head-gesture-control, p05-monthly-sales-report-automation, k2-dataset-fitness-check, m5-b2b-account-health-and-order-risk, v2-bystander-face-redaction]
+
+# ---------------------------------------------------------------- featured
+# The first thing on the page, straight under your name. show: false hides it.
+# images: files in the repo; the first one is shown large, the rest in a grid.
+featured:
+  show: true
+  name: Manufacturing Costing Engine
+  label: Built at work · a working system
+  link: portfolio/projects/costing-engine/README.md
+  pitch: "What I do best: take a process that runs on a fragile spreadsheet and turn it into a system people can trust. This is the clearest example."
+  before_after:
+    - ["Product costs partly typed in by hand in one large Excel sheet", "Every cost derived from raw-material prices and recipes, never typed"]
+    - ["A price change meant hunting through every product that used it", "Change one price and every affected product recalculates at once"]
+    - ["\"What if this price goes up?\" meant copying the sheet and editing it by hand", "Impact analysis shows every affected product, old cost against new, before anything is saved"]
+    - ["Nobody could say who changed a number, when, or why", "Every change logged with who, when, old value, new value and the reason"]
+    - ["No checks: a recipe could total 99.5% or a bad paste could slip in unnoticed", "Recipes must total 100%, uploads are checked all-or-nothing, six user roles, 62 automated tests"]
+  images:
+    - [portfolio/projects/costing-engine/images/home.jpg, "Search & overview: what a product costs today, and what moved"]
+    - [portfolio/projects/costing-engine/images/grade.jpg, "One product's full cost build-up"]
+    - [portfolio/projects/costing-engine/images/impact.jpg, "What-if: a price change and every product it touches"]
+    - [portfolio/projects/costing-engine/images/sheet.jpg, "The familiar costing sheet, now live"]
+    - [portfolio/projects/costing-engine/images/activity.jpg, "Audit trail: who changed what, and why"]
+  stack: Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline
+  note: Screenshots use made-up demo data. The company's products, customers and prices are not shown.
 
 # ---------------------------------------------------------------- skills
 # Each group becomes a row. Badges come from shields.io; a name it doesn't
