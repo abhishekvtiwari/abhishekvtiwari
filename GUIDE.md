@@ -24,7 +24,7 @@ certificates/ ──►  links in "Achievements and certificates"
 
 | You want to… | In `profile.yml`, change… | Example |
 |---|---|---|
-| Change your job title | `role:` | `role: Business Analyst · PMO to the CEO's Office` |
+| Change your job title | `role:` | `role: Business Analyst · PMO (CEO's Office)` |
 | Change your company | `company:` | `company: JJ Plastalloy` |
 | Change the line under your name | `tagline:` | `tagline: I turn data into decisions.` |
 | Rewrite "About me" | the lines under `about:` (each starts with `  - `) | `  - Led the monthly MIS for the CEO's office.` |

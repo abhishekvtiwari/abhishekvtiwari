@@ -13,7 +13,7 @@ name: Abhishek Tiwari
 first_name: Abhishek
 
 # Shown in the banner and at the top of the page
-role: Business Analyst · PMO to the CEO's Office
+role: Business Analyst · PMO (CEO's Office)
 company: JJ Plastalloy
 tagline: I turn data into decisions for the business, and I write what I wish I had found when I was learning.
 
@@ -33,7 +33,7 @@ location: India
 # ---------------------------------------------------------------- about me
 # A few short lines for the "About me" section. Add, remove or reword freely.
 about:
-  - Business Analyst in the PMO to the CEO's Office at JJ Plastalloy.
+  - Business Analyst in the PMO (CEO's Office) at JJ Plastalloy.
   - I work with SQL, Python, Power BI and Excel/VBA.
   - Always learning, and writing down what I learn so others can learn it faster.
 
