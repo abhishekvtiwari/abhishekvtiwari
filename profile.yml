@@ -53,7 +53,8 @@ compounza:
 # know just shows as a plain grey badge.
 skills:
   Business: [Business Analysis, PMO, Stakeholder Reporting, Process Improvement, KPI Dashboards]
-  Data: [SQL, MySQL, Python, pandas, Power BI, Excel, VBA]
+  Data: [SQL, MySQL, Python, pandas, Power BI, Tableau, Excel, Macros, VBA]
+  Tools: [Microsoft Teams, Slack, PowerPoint]
   Also: [scikit-learn, FastAPI, React, PostgreSQL, Git]
 
 # ---------------------------------------------------------------- achievements

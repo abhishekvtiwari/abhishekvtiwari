@@ -44,6 +44,10 @@ BADGES = {
     "react": ("20232A", "react"), "postgresql": ("336791", "postgresql"), "git": ("F05032", "git"),
     "tableau": ("E97627", "tableau"), "jira": ("0052CC", "jira"), "confluence": ("172B4D", "confluence"),
     "numpy": ("013243", "numpy"), "docker": ("2496ED", "docker"), "hackerrank": ("2EC866", "hackerrank"),
+    "macros": ("217346", "microsoftexcel"), "powerpoint": ("B7472A", "microsoftpowerpoint"),
+    "microsoft teams": ("6264A7", "microsoftteams"), "teams": ("6264A7", "microsoftteams"), "slack": ("4A154B", "slack"),
+    "word": ("2B579A", "microsoftword"), "outlook": ("0078D4", "microsoftoutlook"), "sharepoint": ("0078D4", "microsoftsharepoint"),
+    "notion": ("000000", "notion"), "clickup": ("7B68EE", "clickup"), "google sheets": ("34A853", "googlesheets"),
 }
 DARK_TEXT = {"F2C811", "F7931E"}
 
