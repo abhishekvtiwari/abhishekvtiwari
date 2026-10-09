@@ -1,7 +1,7 @@
 <!-- THIS FILE IS GENERATED from profile.yml by scripts/build_profile.py. Edit profile.yml, not this file. See GUIDE.md. -->
-<p align="center"><img src="assets/banner.svg" alt="Abhishek Tiwari, Business Analyst · PMO to the CEO's Office at JJ Plastalloy" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Abhishek Tiwari, Business Analyst · PMO (CEO's Office) at JJ Plastalloy" width="100%"></p>
 
-<h3 align="center">Hi, I'm Abhishek 👋 · Business Analyst · PMO to the CEO's Office at JJ Plastalloy</h3>
+<h3 align="center">Hi, I'm Abhishek 👋 · Business Analyst · PMO (CEO's Office) at JJ Plastalloy</h3>
 
 <p align="center">I turn data into decisions for the business, and I write what I wish I had found when I was learning.</p>
 
@@ -27,7 +27,7 @@
 
 ## 🙋 About me
 
-- Business Analyst in the PMO to the CEO's Office at JJ Plastalloy.
+- Business Analyst in the PMO (CEO's Office) at JJ Plastalloy.
 - I work with SQL, Python, Power BI and Excel/VBA.
 - Always learning, and writing down what I learn so others can learn it faster.
 
