@@ -43,6 +43,14 @@ What I do best: take a process that runs on a fragile spreadsheet and turn it in
 
 ---
 
+## 🛒 Books &amp; projects on Compounza
+
+<table><tr><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/interview-readiness"><img src="https://compounza.in/shop/covers/interview-readiness.png" alt="The Interview Readiness Book"></a><br><sub><b>The Interview Readiness Book</b><br>₹500</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-1-first-principles.png" alt="Vol 1 · First Principles"></a><br><sub><b>Vol 1 · First Principles</b><br>3 volumes ₹1,000</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-2-the-working-analyst.png" alt="Vol 2 · The Working Analyst"></a><br><sub><b>Vol 2 · The Working Analyst</b><br>3 volumes ₹1,000</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-3-builder-to-architect.png" alt="Vol 3 · Builder to Architect"></a><br><sub><b>Vol 3 · Builder to Architect</b><br>3 volumes ₹1,000</sub></td></tr></table>
+
+**Everything (all 4 books) ₹1,299** · [Read a free sample](https://compounza.in/read-free) · [Hands-on data projects](https://compounza.in/projects) · [Shop →](https://compounza.in)
+
+---
+
 <h3 align="center"><code>abhishekvtiwari@github ~ $ whoami</code></h3>
 
 <p align="center">

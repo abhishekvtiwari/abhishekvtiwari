@@ -82,6 +82,18 @@ featured:
   stack: Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline
   note: Screenshots use made-up demo data. The company's products, customers and prices are not shown.
 
+# ---------------------------------------------------------------- shop
+# Books and projects for sale on compounza.in. Prices: keep them the same as the site.
+shop:
+  show: true
+  title: Books & projects on Compounza
+  items:
+    - [The Interview Readiness Book, "₹500", https://compounza.in/books/interview-readiness, https://compounza.in/shop/covers/interview-readiness.png]
+    - [Vol 1 · First Principles, "3 volumes ₹1,000", https://compounza.in/books/analyst-to-architect, https://compounza.in/shop/covers/volume-1-first-principles.png]
+    - [Vol 2 · The Working Analyst, "3 volumes ₹1,000", https://compounza.in/books/analyst-to-architect, https://compounza.in/shop/covers/volume-2-the-working-analyst.png]
+    - [Vol 3 · Builder to Architect, "3 volumes ₹1,000", https://compounza.in/books/analyst-to-architect, https://compounza.in/shop/covers/volume-3-builder-to-architect.png]
+  line: "**Everything (all 4 books) ₹1,299** · [Read a free sample](https://compounza.in/read-free) · [Hands-on data projects](https://compounza.in/projects) · [Shop →](https://compounza.in)"
+
 # ---------------------------------------------------------------- skills
 # Each group becomes a row. Badges come from shields.io; a name it doesn't
 # know just shows as a plain grey badge.

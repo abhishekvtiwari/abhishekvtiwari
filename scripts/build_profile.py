@@ -298,6 +298,16 @@ def readme(p, have_stats):
             L.append(f'<sub>{e(ft["note"])}</sub>\n')
         L.append("---\n")
 
+    sh = p.get("shop") or {}
+    if sh.get("show"):
+        L.append(f'## 🛒 {html.escape(sh.get("title", "Shop"), quote=False)}\n')
+        items = sh.get("items") or []
+        cells = "".join(f'<td width="25%" align="center" valign="top"><a href="{u}"><img src="{img}" alt="{html.escape(n)}"></a><br><sub><b>{html.escape(n, quote=False)}</b><br>{html.escape(pr, quote=False)}</sub></td>' for n, pr, u, img in items)
+        L.append(f"<table><tr>{cells}</tr></table>\n")
+        if sh.get("line"):
+            L.append(sh["line"] + "\n")
+        L.append("---\n")
+
     L.append(f'<h3 align="center"><code>{USER}@github ~ $ whoami</code></h3>\n')
     if have_stats:
         L.append('<p align="center">\n  <img src="assets/whoami.svg" alt="whoami card" width="49%">\n  <img src="assets/stats.svg" alt="Contribution stats" width="49%">\n</p>\n')
