@@ -15,13 +15,13 @@
   <a href="https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-view-555?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"></a>
 </p>
 
-<h3 align="center"><code>abhishek@github ~ $ ./contributions.sh</code></h3>
+<h3 align="center"><code>abhishekvtiwari@github ~ $ ./contributions.sh</code></h3>
 
 <p align="center">
   <img src="assets/contributions.svg" alt="Contribution calendar for the last year" width="100%">
 </p>
 
-<h3 align="center"><code>abhishek@github ~ $ whoami</code></h3>
+<h3 align="center"><code>abhishekvtiwari@github ~ $ whoami</code></h3>
 
 <p align="center">
   <img src="assets/whoami.svg" alt="whoami: Abhishek Tiwari, Data Analyst and Founder of Compounza; stack and contact" width="49%">
