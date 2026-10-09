@@ -105,4 +105,6 @@ A half-applied price file is worse than none: some products show new costs and s
 
 ---
 
+**Full project page, screens and the source code offer: [manufacturing-costing-engine](https://github.com/abhishekvtiwari/manufacturing-costing-engine)**
+
 [← All projects](../../README.md)

@@ -65,7 +65,7 @@ featured:
   show: true
   name: Manufacturing Costing Engine
   label: Built at work · a working system
-  link: portfolio/projects/costing-engine/README.md
+  link: https://github.com/abhishekvtiwari/manufacturing-costing-engine
   pitch: "What I do best: take a process that runs on a fragile spreadsheet and turn it into a system people can trust. This is the clearest example."
   before_after:
     - ["Product costs partly typed in by hand in one large Excel sheet", "Every cost derived from raw-material prices and recipes, never typed"]

@@ -28,16 +28,16 @@ What I do best: take a process that runs on a fragile spreadsheet and turn it in
 | Nobody could say who changed a number, when, or why | **Every change logged with who, when, old value, new value and the reason** |
 | No checks: a recipe could total 99.5% or a bad paste could slip in unnoticed | **Recipes must total 100%, uploads are checked all-or-nothing, six user roles, 62 automated tests** |
 
-<p align="center"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/home.jpg" alt="Search &amp; overview: what a product costs today, and what moved" width="100%"></a><br><sub>Search &amp; overview: what a product costs today, and what moved</sub></p>
+<p align="center"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/home.jpg" alt="Search &amp; overview: what a product costs today, and what moved" width="100%"></a><br><sub>Search &amp; overview: what a product costs today, and what moved</sub></p>
 
 <table>
-<tr><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/grade.jpg" alt="One product&#x27;s full cost build-up"></a><br><sub>One product's full cost build-up</sub></td><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/impact.jpg" alt="What-if: a price change and every product it touches"></a><br><sub>What-if: a price change and every product it touches</sub></td></tr>
-<tr><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/sheet.jpg" alt="The familiar costing sheet, now live"></a><br><sub>The familiar costing sheet, now live</sub></td><td width="50%" align="center" valign="top"><a href="portfolio/projects/costing-engine/README.md"><img src="portfolio/projects/costing-engine/images/activity.jpg" alt="Audit trail: who changed what, and why"></a><br><sub>Audit trail: who changed what, and why</sub></td></tr>
+<tr><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/grade.jpg" alt="One product&#x27;s full cost build-up"></a><br><sub>One product's full cost build-up</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/impact.jpg" alt="What-if: a price change and every product it touches"></a><br><sub>What-if: a price change and every product it touches</sub></td></tr>
+<tr><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/sheet.jpg" alt="The familiar costing sheet, now live"></a><br><sub>The familiar costing sheet, now live</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/abhishekvtiwari/manufacturing-costing-engine"><img src="portfolio/projects/costing-engine/images/activity.jpg" alt="Audit trail: who changed what, and why"></a><br><sub>Audit trail: who changed what, and why</sub></td></tr>
 </table>
 
 `Python · FastAPI · SQLAlchemy · SQLite · openpyxl · pytest · runs fully offline`
 
-**[Read the full case study →](portfolio/projects/costing-engine/README.md)**
+**[Read the full case study →](https://github.com/abhishekvtiwari/manufacturing-costing-engine)**
 
 <sub>Screenshots use made-up demo data. The company's products, customers and prices are not shown.</sub>
 
