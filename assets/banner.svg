@@ -1,49 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Abhishek Tiwari, Data Analyst and Founder of Compounza">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Abhishek Tiwari, Business Analyst · PMO to the CEO's Office at JJ Plastalloy">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#04281a"/>
-      <stop offset="1" stop-color="#0b3d26"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
-      <stop offset="0" stop-color="#4dd658" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#4dd658" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.4" fill="#4dd658" fill-opacity="0.14"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04281a"/><stop offset="1" stop-color="#0b3d26"/></linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55"><stop offset="0" stop-color="#4dd658" stop-opacity="0.28"/><stop offset="1" stop-color="#4dd658" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#4dd658" fill-opacity="0.14"/></pattern>
   </defs>
-  <rect width="1280" height="340" rx="22" fill="url(#bg)"/>
-  <rect width="1280" height="340" rx="22" fill="url(#dots)"/>
-  <rect width="1280" height="340" rx="22" fill="url(#glow)"/>
-
-  <!-- rising bars: compounding growth -->
+  <rect width="1280" height="340" rx="22" fill="url(#bg)"/><rect width="1280" height="340" rx="22" fill="url(#dots)"/><rect width="1280" height="340" rx="22" fill="url(#glow)"/>
   <g fill="#4dd658">
-    <rect x="890" y="236" width="34" height="54" rx="5" fill-opacity="0.35"/>
-    <rect x="938" y="214" width="34" height="76" rx="5" fill-opacity="0.45"/>
-    <rect x="986" y="184" width="34" height="106" rx="5" fill-opacity="0.55"/>
-    <rect x="1034" y="146" width="34" height="144" rx="5" fill-opacity="0.68"/>
-    <rect x="1082" y="98" width="34" height="192" rx="5" fill-opacity="0.82"/>
-    <rect x="1130" y="44" width="34" height="246" rx="5"/>
+    <rect x="890" y="236" width="34" height="54" rx="5" fill-opacity="0.35"/><rect x="938" y="214" width="34" height="76" rx="5" fill-opacity="0.45"/>
+    <rect x="986" y="184" width="34" height="106" rx="5" fill-opacity="0.55"/><rect x="1034" y="146" width="34" height="144" rx="5" fill-opacity="0.68"/>
+    <rect x="1082" y="98" width="34" height="192" rx="5" fill-opacity="0.82"/><rect x="1130" y="44" width="34" height="246" rx="5"/>
   </g>
-  <polyline points="907,226 955,203 1003,172 1051,133 1099,84 1147,30" fill="none" stroke="#e3e1d3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9"/>
-
-  <text x="72" y="96" fill="#4dd658" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="17" letter-spacing="4">DATA ANALYST · FOUNDER</text>
-  <text x="70" y="168" fill="#ffffff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">Abhishek Tiwari</text>
-  <text x="72" y="214" fill="#c9d6cd" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24">I turn data into decisions, and teach others how.</text>
-
-  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <rect x="72" y="248" width="178" height="52" rx="12" fill="#07331f" stroke="#1d5236"/>
-    <text x="90" y="281" fill="#ffffff" font-size="20" font-weight="800">1,226</text>
-    <text x="152" y="281" fill="#93ac9b" font-size="14">questions</text>
-
-    <rect x="262" y="248" width="178" height="52" rx="12" fill="#07331f" stroke="#1d5236"/>
-    <text x="280" y="281" fill="#ffffff" font-size="20" font-weight="800">3,860</text>
-    <text x="342" y="281" fill="#93ac9b" font-size="14">pages written</text>
-
-    <rect x="452" y="248" width="196" height="52" rx="12" fill="#07331f" stroke="#1d5236"/>
-    <text x="470" y="281" fill="#ffffff" font-size="20" font-weight="800">16</text>
-    <text x="500" y="281" fill="#93ac9b" font-size="14">portfolio projects</text>
-
-    <text x="672" y="281" fill="#4dd658" font-size="20" font-weight="700">compounza.in</text>
-  </g>
+  <polyline points="907,226 955,203 1003,172 1051,133 1099,84 1147,30" fill="none" stroke="#e3e1d3" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+  <text x="72" y="92" fill="#4dd658" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" letter-spacing="3">BUSINESS ANALYST · PMO TO THE CEO'S OFFICE</text>
+  <text x="70" y="164" fill="#ffffff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">Abhishek Tiwari</text>
+  <text x="72" y="214" fill="#c9d6cd" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22">I turn data into decisions for the business, and I write</text><text x="72" y="244" fill="#c9d6cd" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22">what I wish I had found when I was learning.</text>
+  <text x="72" y="300" fill="#93ac9b" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18">@ <tspan fill="#e3e1d3" font-weight="700">JJ Plastalloy</tspan></text>
 </svg>

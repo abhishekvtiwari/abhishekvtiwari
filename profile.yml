@@ -1,0 +1,102 @@
+# ============================================================================
+#  YOUR PROFILE - edit this file, save (commit), and the whole profile page
+#  rebuilds itself in about a minute: README, banner and the terminal cards.
+#  Full instructions: GUIDE.md
+#
+#  Rules of the format (YAML):
+#   - keep the spaces at the start of lines exactly as they are
+#   - text with a colon ( : ) in it goes inside "double quotes"
+#   - a line starting with # is a note and is ignored
+# ============================================================================
+
+name: Abhishek Tiwari
+first_name: Abhishek
+
+# Shown in the banner and at the top of the page
+role: Business Analyst · PMO to the CEO's Office
+company: JJ Plastalloy
+tagline: I turn data into decisions for the business, and I write what I wish I had found when I was learning.
+
+# ---------------------------------------------------------------- résumé
+# Option 1 (recommended): put your PDF in the resume/ folder and write its
+# file name here, e.g.  resume: resume/Abhishek-Tiwari-Resume.pdf
+# Option 2: paste a link (Google Drive, etc.).
+# Leave it empty ("") to hide the résumé button.
+resume: "https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"
+
+# ---------------------------------------------------------------- contact
+email: abhishekvtiwari008@gmail.com
+linkedin: https://www.linkedin.com/in/abhishekvtiwari/
+website: https://compounza.in
+location: India
+
+# ---------------------------------------------------------------- about me
+# A few short lines for the "About me" section. Add, remove or reword freely.
+about:
+  - Business Analyst in the PMO to the CEO's Office at JJ Plastalloy.
+  - I work with SQL, Python, Power BI and Excel/VBA.
+  - Always learning, and writing down what I learn so others can learn it faster.
+
+# ---------------------------------------------------------------- Compounza
+# Your personal project. Set show: false to hide the whole section.
+compounza:
+  show: true
+  story: I took course after course and still didn't find what I was actually looking for, so I built it. Compounza is my experiment in learning by writing - books and projects that answer exactly what you need to know, and what to prepare for.
+  link: https://compounza.in
+  items:
+    - "📘 The Interview Readiness Book - 1,226 data-science interview questions in 16 banks, 863 pages"
+    - "📚 Analyst to Architect - three volumes, 68 chapters, 2,997 pages, from what data is to data architecture"
+    - "🧩 16 portfolio projects - Excel, Python, machine learning and computer vision"
+
+# ---------------------------------------------------------------- skills
+# Each group becomes a row. Badges come from shields.io; a name it doesn't
+# know just shows as a plain grey badge.
+skills:
+  Business: [Business Analysis, PMO, Stakeholder Reporting, Process Improvement, KPI Dashboards]
+  Data: [SQL, MySQL, Python, pandas, Power BI, Excel, VBA]
+  Also: [scikit-learn, FastAPI, React, PostgreSQL, Git]
+
+# ---------------------------------------------------------------- achievements
+# HackerRank stars, certificates, courses. Delete the [] and add entries like
+# the example below. The section appears only when there is at least one.
+#
+# achievements:
+#   - title: HackerRank SQL
+#     detail: 5 stars
+#     link: https://www.hackerrank.com/profile/YOUR-USERNAME
+#   - title: Google Data Analytics Certificate
+#     detail: Coursera, 2024
+#     link: certificates/google-data-analytics.pdf
+achievements: []
+
+# ---------------------------------------------------------------- projects
+# The featured-projects table. Order here = order on the page.
+projects:
+  - name: Compounza Financial Calculators
+    repo: compounza
+    what: SIP, EMI, compound and simple interest calculators with charts, amortization schedules and a Smart Advisor health check
+    stack: HTML · CSS · JavaScript
+  - name: IPL Performance Dashboard
+    repo: Power-BI-IPL
+    what: Team win rates, run rate over time, runs by batting position and year-on-year batsman trends
+    stack: Power BI · DAX
+  - name: Email to ClickUp Automation
+    repo: Email_to_Clickup_Task_Automation
+    what: Reads an inbox, routes operational emails to ClickUp as tasks, never sends twice, keeps an audit trail
+    stack: Python · pandas · IMAP/SMTP
+  - name: BookYourMovie.com
+    repo: BookYourMovie.com
+    what: Cinema booking with a live seat map, tiered pricing, a food add-on and box-office statistics
+    stack: Python · OOP
+  - name: Edyoda Gym Manager
+    repo: Edyoda-Gym-MMP
+    what: Admin and member roles, member CRUD and BMI-based workout plans
+    stack: Python · OOP
+  - name: Bank Account Manager
+    repo: Bank-Account-Manager-Python-
+    what: Checking, saving and business accounts, deposits, ATM withdrawals and PIN-checked customers
+    stack: Python · OOP
+  - name: Tic-Tac-Toe
+    repo: Tic_Tac_Toe---TK
+    what: Two-player desktop game with win and tie detection
+    stack: Python · Tkinter
