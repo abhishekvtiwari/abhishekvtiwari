@@ -1,15 +1,15 @@
 # P0.5 · Monthly Sales Report Automation
 
-> One click imports three years of messy monthly files and refreshes a twelve-chart dashboard; you write four parts of the macro.
+> One click imports three years of messy monthly files and refreshes a monthly report you can turn to any month; you write four parts of the macro.
 
 ![Monthly Sales Report Automation](../../images/p05-monthly-sales-report-automation.jpg)
-<sub>Excel's own picture of the dashboard the project's macro refreshes, on its made-up sales data.</sub>
+<sub>Excel's own picture of the monthly report the project's macro refreshes, on its made-up sales data.</sub>
 
 ## What I built
 
-Every month the branch system sends a CSV file with the same problems, and someone cleans it by hand. With one click the macro imports every new file from an inbox folder, fixes its problems, adds the rows to an Excel table, moves the file to an imported folder, refreshes a twelve-chart dashboard and writes a log line of what it found. In the test it read 37 files, 1,13,231 rows, and kept 1,10,456, in about 28 seconds.
+Every month the branch system sends a CSV file with the same problems, and someone cleans it by hand. With one click the macro imports every new file from an inbox folder, fixes its problems, adds the rows to an Excel table, moves the file to an imported folder, refreshes a monthly report that can be turned to any month (with a trends sheet behind it) and writes a log line of what it found. In the test it read 37 files, 1,13,231 rows, and kept 1,10,456, in about 26 seconds.
 
-Four branches send 37 monthly sales files (1.13 lakh rows, 2023–2025) with ten problems planted on purpose: rows and a whole month sent twice, repeated headers, total lines, misspelt branches, text dates and quantities, codes and blanks. A VBA macro fixes and counts every one and refreshes a twelve-chart dashboard. Made-up company, made-up data. Windows Excel 2021, 2024 or Microsoft 365 only (paid).
+Four branches send 37 monthly sales files (1.13 lakh rows, 2023–2025) with ten problems planted on purpose: rows and a whole month sent twice, repeated headers, total lines, misspelt branches, text dates and quantities, codes and blanks. A VBA macro fixes and counts every one and refreshes a monthly report (any month, against last month and a year earlier, with the branches ranked and what needs attention) and a trends sheet. Made-up company, made-up data. Windows Excel 2021, 2024 or Microsoft 365 only (paid).
 
 ## Tools
 
@@ -21,7 +21,8 @@ Four branches send 37 monthly sales files (1.13 lakh rows, 2023–2025) with ten
 - Reading a folder of files with Dir, and lookups with Scripting.Dictionary
 - Writing rows to a table in one block
 - Error handling that tells the user what failed
-- A pivot dashboard with slicers, a timeline, targets and a forecast
+- A monthly report turned to any month with one drop-down: SUMIFS, SORTBY and a branch league table against target
+- A trends sheet: pivots with slicers, a timeline, targets and a forecast
 
 ## Data
 

@@ -54,7 +54,7 @@ Messy business data turned into dashboards and one-click reports, in Excel, VBA 
 | | Project | What it does | Tools |
 |---|---|---|---|
 | **P0** | [Branch Sales Dashboard](projects/p0-branch-sales-dashboard/README.md) | Turn three years of messy sales into a clickable dashboard, and find out why goods are coming back. | Excel 2021, 2024 or Microsoft 365 (paid) |
-| **P0.5** | [Monthly Sales Report Automation](projects/p05-monthly-sales-report-automation/README.md) | One click imports three years of messy monthly files and refreshes a twelve-chart dashboard; you write four parts of the macro. | Excel on Windows (2021, 2024 or Microsoft 365, paid) · VBA |
+| **P0.5** | [Monthly Sales Report Automation](projects/p05-monthly-sales-report-automation/README.md) | One click imports three years of messy monthly files and refreshes a monthly report you can turn to any month; you write four parts of the macro. | Excel on Windows (2021, 2024 or Microsoft 365, paid) · VBA |
 | **P1** | [Pune Branch Sales Review](projects/p1-pune-branch-sales-review/README.md) | Clean three years of company sales in Python, find why Pune’s profit fell behind, and build your own Streamlit page. | Python · pandas · Plotly · Streamlit · Jupyter |
 
 ## 🧰 Python automation kits
