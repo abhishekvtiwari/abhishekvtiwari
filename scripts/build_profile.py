@@ -48,6 +48,8 @@ BADGES = {
     "microsoft teams": ("6264A7", "microsoftteams"), "teams": ("6264A7", "microsoftteams"), "slack": ("4A154B", "slack"),
     "word": ("2B579A", "microsoftword"), "outlook": ("0078D4", "microsoftoutlook"), "sharepoint": ("0078D4", "microsoftsharepoint"),
     "notion": ("000000", "notion"), "clickup": ("7B68EE", "clickup"), "google sheets": ("34A853", "googlesheets"),
+    "flask": ("000000", "flask"), "sqlalchemy": ("D71F00", "sqlalchemy"), "ollama / llms": ("000000", "ollama"),
+    "zoho crm": ("E42527", "zoho"), "sap": ("0FAAFF", "sap"),
 }
 DARK_TEXT = {"F2C811", "F7931E"}
 
@@ -213,7 +215,7 @@ def banner_svg(p):
     role = html.escape(p["role"], quote=False)
     role_caps = html.escape(p["role"].upper(), quote=False)
     company = html.escape(p["company"], quote=False)
-    tag = wrap(p.get("tagline", ""), 58)[:2]
+    tag = wrap(p.get("tagline", ""), 64)[:2]   # two lines; 64 characters still clears the chart on the right
     tagline = "".join(f'<text x="72" y="{214 + i * 30}" fill="#c9d6cd" font-family="{SANS}" font-size="22">{html.escape(l)}</text>' for i, l in enumerate(tag))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="{html.escape(p["name"])}, {role} at {company}">
   <defs>
@@ -238,7 +240,7 @@ def banner_svg(p):
 # ------------------------------------------------------------ README
 def badge(name):
     colour, logo = BADGES.get(name.lower(), ("555555", ""))
-    label = urllib.parse.quote(name.replace("-", "--").replace("_", "__"))
+    label = urllib.parse.quote(name.replace("-", "--").replace("_", "__"), safe="")   # safe="": a "/" in a name must not split the URL
     logo_part = f"&logo={logo}&logoColor={'black' if colour in DARK_TEXT else 'white'}" if logo else ""
     return f'<img src="https://img.shields.io/badge/{label}-{colour}?style=flat-square{logo_part}" alt="{html.escape(name)}">'
 
@@ -255,8 +257,9 @@ def link_for(value):
 def readme(p, have_stats):
     L = []
     L.append(f'<!-- THIS FILE IS GENERATED from profile.yml by scripts/build_profile.py. Edit profile.yml, not this file. See GUIDE.md. -->')
-    L.append(f'<p align="center"><img src="assets/banner.svg" alt="{html.escape(p["name"])}, {html.escape(p["role"], quote=False)} at {html.escape(p["company"], quote=False)}" width="100%"></p>\n')
-    L.append(f'<h3 align="center">Hi, I\'m {html.escape(p.get("first_name", p["name"]))} 👋 · {html.escape(p["role"], quote=False)} at {html.escape(p["company"], quote=False)}</h3>\n')
+    hello = f'Hi, I\'m {html.escape(p.get("first_name", p["name"]))} 👋 · {html.escape(p["role"], quote=False)} at {html.escape(p["company"], quote=False)}'
+    L.append(f'<p align="center"><img src="assets/banner.svg" alt="{hello}" width="100%"></p>\n')
+    L.append(f'<h3 align="center">{hello}</h3>\n')
     L.append(f'<p align="center">{html.escape(p.get("tagline", ""))}</p>\n')
     buttons = []
     if p.get("linkedin"):
@@ -362,6 +365,10 @@ def readme(p, have_stats):
         for pr in p["projects"]:
             L.append(f'| [**{pr["name"]}**](https://github.com/{USER}/{pr["repo"]}) | {pr["what"]} | {pr.get("stack", "")} |')
         L.append("")
+        lp = p.get("learning_projects") or {}
+        if lp.get("items"):
+            links = " · ".join(f'[{n}](https://github.com/{USER}/{r})' for n, r in lp["items"])
+            L.append(f'{lp.get("label", "Learning projects")}: {links}\n')
 
     L.append("## 🤝 Let's connect\n")
     bits = []

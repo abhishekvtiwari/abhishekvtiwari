@@ -1,15 +1,14 @@
 <!-- THIS FILE IS GENERATED from profile.yml by scripts/build_profile.py. Edit profile.yml, not this file. See GUIDE.md. -->
-<p align="center"><img src="assets/banner.svg" alt="Abhishek Tiwari, Business Analyst · PMO (CEO's Office) at JJ Plastalloy" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Hi, I'm Abhishek 👋 · AI Business Analyst · Business Analyst – PMO (CEO's Office) at J J Plastalloy" width="100%"></p>
 
-<h3 align="center">Hi, I'm Abhishek 👋 · Business Analyst · PMO (CEO's Office) at JJ Plastalloy</h3>
+<h3 align="center">Hi, I'm Abhishek 👋 · AI Business Analyst · Business Analyst – PMO (CEO's Office) at J J Plastalloy</h3>
 
-<p align="center">I turn data into decisions for the business, and I write what I wish I had found when I was learning.</p>
+<p align="center">I find where work gets stuck, then build the automation or AI tool that fixes it — and make sure people actually use it.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishekvtiwari/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:abhishekvtiwari008@gmail.com"><img src="https://img.shields.io/badge/Email-abhishekvtiwari008%40gmail.com-c62828?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-View-555555?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Résumé"></a>
-  <a href="https://compounza.in"><img src="https://img.shields.io/badge/Compounza-compounza.in-167a45?style=for-the-badge" alt="Website"></a>
 </p>
 
 ---
@@ -43,14 +42,6 @@ What I do best: take a process that runs on a fragile spreadsheet and turn it in
 
 ---
 
-## 🛒 Books &amp; projects on Compounza
-
-<table><tr><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/interview-readiness"><img src="https://compounza.in/shop/covers/interview-readiness.png" alt="The Interview Readiness Book"></a><br><sub><b>The Interview Readiness Book</b><br>₹500</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-1-first-principles.png" alt="Vol 1 · First Principles"></a><br><sub><b>Vol 1 · First Principles</b><br>3 volumes ₹1,000</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-2-the-working-analyst.png" alt="Vol 2 · The Working Analyst"></a><br><sub><b>Vol 2 · The Working Analyst</b><br>3 volumes ₹1,000</sub></td><td width="25%" align="center" valign="top"><a href="https://compounza.in/books/analyst-to-architect"><img src="https://compounza.in/shop/covers/volume-3-builder-to-architect.png" alt="Vol 3 · Builder to Architect"></a><br><sub><b>Vol 3 · Builder to Architect</b><br>3 volumes ₹1,000</sub></td></tr></table>
-
-**Everything (all 4 books) ₹1,299** · [Read a free sample](https://compounza.in/read-free) · [Hands-on data projects](https://compounza.in/projects) · [Shop →](https://compounza.in)
-
----
-
 <h3 align="center"><code>abhishekvtiwari@github ~ $ whoami</code></h3>
 
 <p align="center">
@@ -75,44 +66,33 @@ What I do best: take a process that runs on a fragile spreadsheet and turn it in
 
 ## 🙋 About me
 
-- Business Analyst in the PMO (CEO's Office) at JJ Plastalloy.
-- I work with SQL, Python, Power BI and Excel/VBA.
-- Always learning, and writing down what I learn so others can learn it faster.
-
-## 🌱 My personal project: Compounza
-
-<img src="assets/compounza-mark.png" alt="Compounza" width="64" align="right">
-
-I took course after course and still didn't find what I was actually looking for, so I built it. Compounza is my experiment in learning by writing - books and projects that answer exactly what you need to know, and what to prepare for.
-
-- 📘 The Interview Readiness Book - 1,226 data-science interview questions in 16 banks, 863 pages
-- 📚 Analyst to Architect - three volumes, 68 chapters, 2,997 pages, from what data is to data architecture
-- 🧩 16 portfolio projects - Excel, Python, machine learning and computer vision
-
-**→ [compounza.in](https://compounza.in)**
+- Business Analyst – PMO (CEO's Office) at J J Plastalloy, owning process automation, internal systems and reporting across Sales, Operations and Technology.
+- Automated 25 monthly sales reports: 2 days → 15 minutes.
+- Built an AI meeting-minutes pipeline for Hindi, English and Marathi meetings: 2 days → about 2 hours.
+- Designed the manufacturing costing & pricing engine (FastAPI, SQLAlchemy, PostgreSQL), live with users.
+- Building a sales intelligence system on SAP and Zoho CRM data, with a local LLM (Qwen 2.5 7B via Ollama).
+- Earlier: Media.net (report automation that saved 75+ hours a week) and Hevo Technologies (data lineage and churn analysis).
 
 ## 🛠️ Skills
 
 <table>
 <tr><td><b>Business</b></td><td><img src="https://img.shields.io/badge/Business%20Analysis-555555?style=flat-square" alt="Business Analysis"> <img src="https://img.shields.io/badge/PMO-555555?style=flat-square" alt="PMO"> <img src="https://img.shields.io/badge/Stakeholder%20Reporting-555555?style=flat-square" alt="Stakeholder Reporting"> <img src="https://img.shields.io/badge/Process%20Improvement-555555?style=flat-square" alt="Process Improvement"> <img src="https://img.shields.io/badge/KPI%20Dashboards-555555?style=flat-square" alt="KPI Dashboards"></td></tr>
 <tr><td><b>Data</b></td><td><img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau"> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel"> <img src="https://img.shields.io/badge/Macros-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Macros"> <img src="https://img.shields.io/badge/VBA-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="VBA"></td></tr>
-<tr><td><b>Tools</b></td><td><img src="https://img.shields.io/badge/Microsoft%20Teams-6264A7?style=flat-square&logo=microsoftteams&logoColor=white" alt="Microsoft Teams"> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"> <img src="https://img.shields.io/badge/PowerPoint-B7472A?style=flat-square&logo=microsoftpowerpoint&logoColor=white" alt="PowerPoint"></td></tr>
-<tr><td><b>Also</b></td><td><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=black" alt="scikit-learn"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></td></tr>
+<tr><td><b>Systems</b></td><td><img src="https://img.shields.io/badge/Zoho%20CRM-E42527?style=flat-square&logo=zoho&logoColor=white" alt="Zoho CRM"> <img src="https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white" alt="SAP"></td></tr>
+<tr><td><b>Also</b></td><td><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"> <img src="https://img.shields.io/badge/Ollama%20%2F%20LLMs-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama / LLMs"> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=black" alt="scikit-learn"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></td></tr>
 </table>
 
 ## 📌 More projects
 
 | Project | What it is | Built with |
 |---|---|---|
-| [**Compounza Financial Calculators**](https://github.com/abhishekvtiwari/compounza) | SIP, EMI, compound and simple interest calculators with charts, amortization schedules and a Smart Advisor health check | HTML · CSS · JavaScript |
+| [**Financial Calculators**](https://github.com/abhishekvtiwari/compounza) | SIP, EMI, compound and simple interest calculators with charts, amortization schedules and a Smart Advisor health check | HTML · CSS · JavaScript |
 | [**IPL Performance Dashboard**](https://github.com/abhishekvtiwari/Power-BI-IPL) | Team win rates, run rate over time, runs by batting position and year-on-year batsman trends | Power BI · DAX |
 | [**Email to ClickUp Automation**](https://github.com/abhishekvtiwari/Email_to_Clickup_Task_Automation) | Reads an inbox, routes operational emails to ClickUp as tasks, never sends twice, keeps an audit trail | Python · pandas · IMAP/SMTP |
-| [**BookYourMovie.com**](https://github.com/abhishekvtiwari/BookYourMovie.com) | Cinema booking with a live seat map, tiered pricing, a food add-on and box-office statistics | Python · OOP |
-| [**Edyoda Gym Manager**](https://github.com/abhishekvtiwari/Edyoda-Gym-MMP) | Admin and member roles, member CRUD and BMI-based workout plans | Python · OOP |
-| [**Bank Account Manager**](https://github.com/abhishekvtiwari/Bank-Account-Manager-Python-) | Checking, saving and business accounts, deposits, ATM withdrawals and PIN-checked customers | Python · OOP |
-| [**Tic-Tac-Toe**](https://github.com/abhishekvtiwari/Tic_Tac_Toe---TK) | Two-player desktop game with win and tie detection | Python · Tkinter |
+
+Learning projects (Python OOP): [Gym Manager](https://github.com/abhishekvtiwari/Edyoda-Gym-MMP) · [Bank Account Manager](https://github.com/abhishekvtiwari/Bank-Account-Manager-Python-) · [BookYourMovie](https://github.com/abhishekvtiwari/BookYourMovie.com) · [Tic-Tac-Toe](https://github.com/abhishekvtiwari/Tic_Tac_Toe---TK)
 
 ## 🤝 Let's connect
 
-📫 **abhishekvtiwari008@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/abhishekvtiwari/) · 📄 [Résumé](https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing) · 🌐 [compounza.in](https://compounza.in)
+📫 **abhishekvtiwari008@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/abhishekvtiwari/) · 📄 [Résumé](https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing)
 
