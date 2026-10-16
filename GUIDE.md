@@ -25,14 +25,13 @@ certificates/ ──►  links in "Achievements and certificates"
 | You want to… | In `profile.yml`, change… | Example |
 |---|---|---|
 | Change your job title | `role:` | `role: Business Analyst · PMO (CEO's Office)` |
-| Change your company | `company:` | `company: JJ Plastalloy` |
+| Change your company | `company:` | `company: J J Plastalloy` |
 | Change the line under your name | `tagline:` | `tagline: I turn data into decisions.` |
 | Rewrite "About me" | the lines under `about:` (each starts with `  - `) | `  - Led the monthly MIS for the CEO's office.` |
 | Update email, LinkedIn or website | `email:` · `linkedin:` · `website:` | `email: you@example.com` |
 | Add or remove a skill | the lists under `skills:` | `Data: [SQL, Python, Power BI, Tableau]` |
 | Add a new skill group | a new line under `skills:` | `Tools: [Jira, Confluence]` |
 | Change the featured project at the top | `featured:` (name, pitch, the Before/After rows, images) | `show: false` hides it |
-| Show or hide Compounza | `compounza:` → `show:` | `show: false` hides it |
 | Add, remove or reorder featured projects | the entries under `projects:` | see below |
 | Add HackerRank stars or a certificate | `achievements:` | see below |
 
