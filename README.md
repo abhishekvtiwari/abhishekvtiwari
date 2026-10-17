@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishekvtiwari/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:abhishekvtiwari008@gmail.com"><img src="https://img.shields.io/badge/Email-abhishekvtiwari008%40gmail.com-c62828?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-View-555555?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Résumé"></a>
+  <a href="resume/Abhishek-Tiwari-Resume.pdf"><img src="https://img.shields.io/badge/Resume-View-555555?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Résumé"></a>
 </p>
 
 ---
@@ -94,5 +94,5 @@ Learning projects (Python OOP): [Gym Manager](https://github.com/abhishekvtiwari
 
 ## 🤝 Let's connect
 
-📫 **abhishekvtiwari008@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/abhishekvtiwari/) · 📄 [Résumé](https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing)
+📫 **abhishekvtiwari008@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/abhishekvtiwari/) · 📄 [Résumé](resume/Abhishek-Tiwari-Resume.pdf)
 

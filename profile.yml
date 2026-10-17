@@ -24,8 +24,7 @@ tagline: I find where work gets stuck, then build the automation or AI tool that
 # file name here, e.g.  resume: resume/Abhishek-Tiwari-Resume.pdf
 # Option 2: paste a link (Google Drive, etc.).
 # Leave it empty ("") to hide the résumé button.
-# TODO: replace with the new resume link (this one link also drives the footer résumé link)
-resume: "https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"
+resume: resume/Abhishek-Tiwari-Resume.pdf
 
 # ---------------------------------------------------------------- contact
 email: abhishekvtiwari008@gmail.com
