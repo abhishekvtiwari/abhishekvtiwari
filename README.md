@@ -1,7 +1,7 @@
 <!-- THIS FILE IS GENERATED from profile.yml by scripts/build_profile.py. Edit profile.yml, not this file. See GUIDE.md. -->
-<p align="center"><img src="assets/banner.svg" alt="Hi, I'm Abhishek 👋 · AI Business Analyst · Business Analyst – PMO (CEO's Office) at J J Plastalloy" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Hi, I'm Abhishek 👋 · Business Analyst – PMO (CEO's Office) at J J Plastalloy · AI &amp; process automation" width="100%"></p>
 
-<h3 align="center">Hi, I'm Abhishek 👋 · AI Business Analyst · Business Analyst – PMO (CEO's Office) at J J Plastalloy</h3>
+<h3 align="center">Hi, I'm Abhishek 👋 · Business Analyst – PMO (CEO's Office) at J J Plastalloy · AI &amp; process automation</h3>
 
 <p align="center">I find where work gets stuck, then build the automation or AI tool that fixes it — and make sure people actually use it.</p>
 

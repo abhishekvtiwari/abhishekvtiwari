@@ -258,6 +258,8 @@ def readme(p, have_stats):
     L = []
     L.append(f'<!-- THIS FILE IS GENERATED from profile.yml by scripts/build_profile.py. Edit profile.yml, not this file. See GUIDE.md. -->')
     hello = f'Hi, I\'m {html.escape(p.get("first_name", p["name"]))} 👋 · {html.escape(p["role"], quote=False)} at {html.escape(p["company"], quote=False)}'
+    if p.get("focus"):
+        hello += f' · {html.escape(p["focus"], quote=False)}'
     L.append(f'<p align="center"><img src="assets/banner.svg" alt="{hello}" width="100%"></p>\n')
     L.append(f'<h3 align="center">{hello}</h3>\n')
     L.append(f'<p align="center">{html.escape(p.get("tagline", ""))}</p>\n')

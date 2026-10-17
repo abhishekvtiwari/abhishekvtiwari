@@ -13,8 +13,10 @@ name: Abhishek Tiwari
 first_name: Abhishek
 
 # Shown in the banner and at the top of the page
-role: AI Business Analyst · Business Analyst – PMO (CEO's Office)
+role: Business Analyst – PMO (CEO's Office)
 company: J J Plastalloy
+# Shown after the company in the heading. Leave empty ("") to hide it.
+focus: AI & process automation
 tagline: I find where work gets stuck, then build the automation or AI tool that fixes it — and make sure people actually use it.
 
 # ---------------------------------------------------------------- résumé
@@ -22,7 +24,7 @@ tagline: I find where work gets stuck, then build the automation or AI tool that
 # file name here, e.g.  resume: resume/Abhishek-Tiwari-Resume.pdf
 # Option 2: paste a link (Google Drive, etc.).
 # Leave it empty ("") to hide the résumé button.
-# TODO: replace with the AI Business Analyst resume link (this one link also drives the footer résumé link)
+# TODO: replace with the new resume link (this one link also drives the footer résumé link)
 resume: "https://drive.google.com/file/d/1YoB8_pJvyruGLlQiU17ai5iSiybyUXEY/view?usp=sharing"
 
 # ---------------------------------------------------------------- contact
